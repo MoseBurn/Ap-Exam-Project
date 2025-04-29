@@ -151,7 +151,7 @@ void Stage1() {
             
                 sf::Texture texture2(Path + "CharacterFire.png");
                 sf::Sprite spriteCharacter(texture2);
-                spriteCharacter.setScale({.05f, .05f}); // absolute scale factor
+                spriteCharacter.setScale({.05f, .05f});
                 spriteCharacter.setPosition({positionCharacter.x, positionCharacter.y});
                 window.draw(spriteCharacter);
                 GreenLight_FireBall = false;
