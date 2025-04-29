@@ -219,11 +219,6 @@ void Stage1() {
                     }
                 }
 
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::K)) {
-                sf::Vector2f positionCharacter = spriteCharacter.getPosition();
-                cout << positionCharacter.x << " \\ " << positionCharacter.y << endl;
-            }
-
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space) && (positionCharacter.y == 150.5f || (positionCharacter.x >= 502 && positionCharacter.x <= 692)) && (positionCharacter.y - 100.f) >= -50.f)
                 {
                     sf::Vector2f positionCharacter = spriteCharacter.getPosition();
