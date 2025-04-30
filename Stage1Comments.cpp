@@ -9,6 +9,9 @@
     // a jump interaction with the enemy
     // more enemies, a boss
     // retexturing, and providing a background image.
+    // Fixing Glitches
+    // Renaming number values into variables
+        // Using more specific values for numbers
 
         #include <SFML/Audio.hpp>
         #include <SFML/Graphics.hpp>
