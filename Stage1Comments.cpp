@@ -310,7 +310,7 @@
                 window.display();
                 std::this_thread::sleep_for(std::chrono::milliseconds(10));
         
-                if (positionCharacter.x >= 3130) {
+                if (positionCharacter.x >= 3130) { // add the statement here to make the game end when you run out of lifes
                 break;}
 
                 if (NumberLife == 0)

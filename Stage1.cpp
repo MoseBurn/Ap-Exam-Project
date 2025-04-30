@@ -297,7 +297,7 @@ void Stage1() {
         window.display();
         std::this_thread::sleep_for(std::chrono::milliseconds(10));
 
-        if (positionCharacter.x >= 3130) {
+        if (positionCharacter.x >= 3130 || NumberLife <= 0) {
         break;}
     }  
 }
